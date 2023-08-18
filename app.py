@@ -102,7 +102,7 @@ with st.container():
             and many more
             """
         )
-        st.markdown("[Coming Soon...](https://codexploit.com/project/3)")
+        st.markdown("[Coming Soon...](#)")
 
 with st.container():
     st.write("##")
