@@ -18,8 +18,10 @@ def local_css(file_name):
 
 lottie_coding1 = loadLottieFile("coding2.json")
 lottie_coding2 = loadLottieFile("coding1.json")
-image = Image.open("images/image.png")
-
+image1 = Image.open("images/image1.png")
+image2 = Image.open("images/image2.png")
+image3 = Image.open("images/image3.png")
+image4 = Image.open("images/image4.png")
 #  --- HEADER SECTION -----
 with st.container():
     st.subheader("Hi, I am Aryan Kumar Upadhyay :wave:")
@@ -27,6 +29,7 @@ with st.container():
     st.write("I specialize in designing elegant user interfaces and implementing efficient backend solutions using "
              "Django")
     st.write("[Hire Me >](https://www.fiverr.com/mark_aryan)")
+
 
 # ---- WHAT I DO ----
 with st.container():
@@ -64,7 +67,7 @@ with st.container():
             Empowering startups with affordability, innovation, and expertise.
             """
         )
-        st.write("[Personal Website >](https://codexploit.com)")
+        st.write("[Personal Website >](https://codexploit.netlify.app/)")
     with right_column:
         st_lottie(
             lottie_coding1,
@@ -84,7 +87,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(image)
+        st.image(image1)
     with text_column:
         st.subheader("Created a ChatApp!")
         st.write(
@@ -99,7 +102,73 @@ with st.container():
             and many more
             """
         )
-        st.markdown("[Comming Soon...](https://codexploit.com/project/3)")
+        st.markdown("[Coming Soon...](https://codexploit.com/project/3)")
+
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(image4)
+    with text_column:
+        st.subheader("Omnifood Webapp")
+        st.write(
+            """
+            Created a responsive website using HTML CSS and JS with fully optimization.
+            Also passed all the basic optimization tests and also the load time is Perfect.
+
+            You can explore it. Not functional! Only a prototype.  
+            """
+        )
+        st.markdown("[Check out >](https://omnifood.dev/)")
+
+
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(image2)
+    with text_column:
+        st.subheader("Image to Grayscale")
+        st.write(
+            """
+            Created a WebApp using Streamlit.
+            It will convert your image into grayscale image or,
+            you can say that black and white image.
+            
+            You can click image instantly, or you can upload from device.
+            It is:- 
+            1. Secure
+            2. User Friendly
+            3. Convert Quality 100% same 
+            4. You can upload file up to 200MB
+            """
+        )
+        st.markdown("[Check out >](https://imageconverterweb-f2n7b6gvskpgec8feh4v7q.streamlit.app/)")
+
+with st.container():
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(image3)
+    with text_column:
+        st.subheader("Image to Grayscale")
+        st.write(
+            """
+            Created a Todo List WebApp using Streamlit.
+            It will help you to see yor daily routine from anywhere and anytime.
+            You don't have to install any app on your device, It wil run on your 'Safari',
+            and 'Chrome' browser. 
+
+            You can create and clear todo items instantly.
+            It is:- 
+            1. Storage free
+            2. User Friendly
+            2. Unlimited Todos 
+            """
+        )
+        st.markdown("[Check out >](https://todowebapp-s6rgkas7ekkijgzzs9bfl6.streamlit.app/)")
+
+
 
 # --- CONTACT SECTION ---
 with st.container():
