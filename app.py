@@ -40,31 +40,38 @@ with st.container():
         st.write("##")
         st.write(
             """
-            1. UI/UX Design:
+            🔍 Web Penetration Tester / Bug Bounty Hunter: 
+            Uncovering digital vulnerabilities is my forte. 
+            Armed with a hacker's mindset and an ethical approach, 
+            I delve deep into web applications, detecting security gaps before they're exploited. 
+            As a dedicated bug bounty hunter, I'm always one step ahead in the cybersecurity realm.
+            
+            
+            🎨 UI/UX Design:
             Captivate your audience with visually appealing and user-centric design. I craft intuitive user interfaces 
             and seamless user experiences that engage and retain your customers.
             
-            2. Web Development:
+            💻 Web Development:
             Transform your ideas into fully functional websites. From e-commerce platforms to informative corporate 
             sites, I create web solutions that align perfectly with your business goals.
             
-            3. Web Designing:
+            🎨 Web Designing:
             Enhance your online presence with custom web designs that reflect your brand's personality. I create designs
              that not only look great but also convert visitors into loyal customers.
             
-            4. Digital Marketing:
+            🚀 Digital Marketing:
             Navigate the complex world of digital marketing with confidence. I devise tailored strategies encompassing 
             SEO, social media, and content marketing to increase your brand's visibility and drive growth.
             
-            5. Training:
+            📚 Training:
             Empower your team with the knowledge and skills needed to excel in today's competitive landscape. I provide 
             training sessions that cover various aspects of design, development, and digital marketing.
             
-            Python Programming Expertise:
+            🐍 Python Programming Expertise:
             As a proficient Python programmer, I harness the power of cutting-edge modules to bring efficiency and 
             innovation to your projects.
             
-            Empowering startups with affordability, innovation, and expertise.
+            ✨ Empowering startups with affordability, innovation, and expertise.
             """
         )
         st.write("[Personal Website >](https://codexploit.netlify.app/)")
