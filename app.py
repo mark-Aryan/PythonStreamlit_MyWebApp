@@ -99,7 +99,7 @@ with st.container():
         st.subheader("Created a ChatApp!")
         st.write(
             """
-            Created a chat app, designed by Figma and developed py Wordpress.
+            Created a chat webapp, designed by Figma and developed py Django.
             It includes:-
             1. SEO
             2. Content Marketing
