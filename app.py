@@ -158,7 +158,7 @@ with st.container():
     with image_column:
         st.image(image3)
     with text_column:
-        st.subheader("Image to Grayscale")
+        st.subheader("Todo List WebApp")
         st.write(
             """
             Created a Todo List WebApp using Streamlit.
