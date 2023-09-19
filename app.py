@@ -13,7 +13,8 @@ def open_pdf_in_browser(pdf_file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-pdf_file_path = "Full Resume.pdf"
+
+pdf_file_path = "./Full Resume.pdf"
 
 
 def loadLottieFile(filepath: str):
