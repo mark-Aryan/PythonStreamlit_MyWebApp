@@ -2,19 +2,8 @@ from PIL import Image
 import streamlit as st
 import json
 from streamlit_lottie import st_lottie
-import webbrowser
 
 st.set_page_config(page_title="CodeXploit", page_icon="☣", layout="wide")
-
-
-def open_pdf_in_browser(pdf_file_path):
-    try:
-        webbrowser.open(pdf_file_path)
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-
-pdf_file_path = "./Full Resume.pdf"
 
 
 def loadLottieFile(filepath: str):
@@ -40,8 +29,7 @@ with st.container():
     st.write("I specialize in designing elegant user interfaces and implementing efficient backend solutions using "
              "Django")
     st.write("[Hire Me >](https://www.fiverr.com/mark_aryan)")
-    if st.button("My Resume"):
-        open_pdf_in_browser(pdf_file_path)
+
 
 
 # ---- WHAT I DO ----
@@ -88,6 +76,8 @@ with st.container():
             """
         )
         st.write("[Personal Website >](https://codexploit.netlify.app/)")
+        st.subheader("My Full Resume")
+        st.write("[Resume >](https://drive.google.com/file/d/1hyfrQ0Cv04BwpgOUz4esg2LSPI3RV48o/view?usp=drive_link)")
     with right_column:
         st_lottie(
             lottie_coding1,
